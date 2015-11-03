@@ -18,4 +18,9 @@ public class MultiAuthDemoApplication {
 		return "secure message";
 	}
 
+	@RequestMapping("/basic-secure")
+	public String getBasicSecureMessage() {
+		return "basic secure message";
+	}
+
 }
